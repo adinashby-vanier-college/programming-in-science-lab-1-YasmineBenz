@@ -2,12 +2,11 @@
 def hello_world():
     print('Hello, World!')
 
-hello_world()
 
 def input_output():
-    name= input('Enter your name: ')
-    age=input('Enter your age: ')
-    height= input('Enter your height: ')
-    print('Hi', name, '!\nYou are',age, 'years old.\nYour height is', height, 'meters.' )
+    name= str(input('Enter your name: '))
+    age=int(input('Enter your age: '))
+    height= float(input('Enter your height: '))
+    print('Hello, '+ name+ '!\nYou are ' + str(age)+ ' years old.\nYour height is '+ str(height)+ ' meters.' )
 
-input_output()
+#"Hello, Alice!\nYou are 25 years old.\nYour height is 5.7 meters."
